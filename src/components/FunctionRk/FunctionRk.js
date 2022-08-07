@@ -9,13 +9,12 @@ function FunctionRk() {
 
   const handleOnChangeNameClick = () => {
     let index = activeIndex;
-    console.log(names)
-    console.log(names.length)
-    console.log(index)
-    console.log(index === names.length - 1)
+    // console.log(names)
+    // console.log(names.length)
+    // console.log(index)
+    // console.log(index === names.length - 1)
     if (index === names.length - 1) index = 0;
     else index++;
-
     setActiveIndex(index);
   };
   // Declare a new state variable, which we'll call "count"
