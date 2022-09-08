@@ -45,9 +45,9 @@ export default function ToDoListComponent() {
     <>
       <hr />
       <ToDoList todos={todos} toggleTodo={toggleTodo} />
-      <input ref={todoNameRef} type="text" />
-      <button onClick={handleAddTodo}>Add Todo</button>
-      <button onClick={handleClearTodos}>Clear Todo</button>
+      <input ref={todoNameRef} type="text" className='form-control'/>
+      <button onClick={handleAddTodo} className="btn btn-dark">Add Todo</button>
+      <button onClick={handleClearTodos} className="btn btn-dark">Clear Todo</button>
       <div>{todos.filter(todo => !todo.complete ).length} left todo</div>
     </>
   ) 

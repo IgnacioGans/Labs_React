@@ -47,6 +47,50 @@ const NavigationReact = () => (
                 <li>
                   <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/template-bootstrap" aria-current="page">Bootstrap</NavLink>
                 </li>
+                <li>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/template-tailwind" aria-current="page">Tailwind</NavLink>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="!#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Course
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/freecodecamp/beginner-react" aria-current="page">Beginner React</NavLink>
+                </li>
+                <li>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/freecodecamp/beginner-react/contacts-cat" aria-current="page">Contacts Cat</NavLink>
+                </li>
+                <li>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/freecodecamp/beginner-react/joke" aria-current="page">Joke</NavLink>
+                </li>
+                <li>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/freecodecamp/beginner-react/airbnb" aria-current="page">Airbnb React</NavLink>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="!#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Test Roulette
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink className={({ isActive }) => isActive? "nav-link active": "nav-link"} to="/roulettepage" aria-current="page">Roulette Basic</NavLink>
+                </li>
               </ul>
             </li>
           </ul>

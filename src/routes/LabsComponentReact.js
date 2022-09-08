@@ -1,5 +1,7 @@
 import React from "react";
-import PlanetEarthThreeJS from "../components/PlanetThreeJS/PlanetEarthThreeJS";
+import RkMySQL from "../components/RkMySQL/RkMySQL";
+// import TemplateTailwindRemking from "./../components/TemplateTailwindRemking/TemplateTailwindRemking";
+// import PlanetEarthThreeJS from "../components/PlanetThreeJS/PlanetEarthThreeJS";
 // import ButtonAndListSampleReact from "../components/ButtonAndListSampleReact/ButtonAndListSampleReact";
 // import ToDoListComponent from "../components/ToDoList/ToDoListComponent";
 
@@ -10,8 +12,10 @@ const LabsComponentReact = () => (
       <li><p>Tratar de hacer ejercicios con Maps y con Hook como UseEffect</p></li>
       <li><p>Hacer ejercicios con APi</p></li>
     </ul>
+    <RkMySQL/>
     {/* <ToDoListComponent/> */}
-    <PlanetEarthThreeJS/>
+    {/* <PlanetEarthThreeJS/> */}
+    {/* <TemplateTailwindRemking /> */}
    </div>
 );
 
